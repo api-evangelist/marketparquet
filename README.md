@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MarketParquet is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://marketparquet.com/
+MarketParquet provides historical US stock, ETF, and futures market data in columnar Parquet format. It offers split‑adjusted OHLCV bars from 2000 to present, including delisted tickers, with free daily samples and a paid complete archive. The service targets quantitative analysts, backtesters, and data scientists needing high‑performance, ready‑to‑load datasets for pandas, Polars, or DuckDB.
+
+**Areas:** Company · Finance · Data · MarketData · APIs
+
+## MarketParquet on APIs.io
+
+Everything profiled for MarketParquet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/marketparquet/](https://apis.io/providers/marketparquet/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [MarketParquet API V1 API](https://apis.io/apis/marketparquet/marketparquet-api-v1-api/) — The api-v1 API from MarketParquet — 4 operation(s) for api-v1.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Marketparquet Agentic Access](https://apis.io/agentic-access/marketparquet/marketparquet-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Marketparquet Context](https://apis.io/jsonld/marketparquet/marketparquet-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Marketparquet Openapi Overlay](https://apis.io/overlays/marketparquet/marketparquet-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MarketParquet API Rules](https://apis.io/rules/marketparquet/marketparquet-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Marketparquet Authentication](https://apis.io/security/marketparquet/marketparquet-authentication/)
+- [Marketparquet Domain Security](https://apis.io/security/marketparquet/marketparquet-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Marketparquet Plans Pricing](https://apis.io/plans/marketparquet/marketparquet-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://marketparquet.com/)
+- [Documentation](https://marketparquet.com/documentation)
+- [Pricing](https://marketparquet.com/pricing)
+- [Sign up](https://marketparquet.com/auth/register)
+- [Changelog](https://marketparquet.com/changelog)
+- [Terms of service](https://marketparquet.com/terms)
+- [Privacy policy](https://marketparquet.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.9** — developing · rubric 0.24.0 · scored 2026-10-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 49.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 30.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/marketparquet/](https://apis.io/providers/marketparquet/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MarketParquet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/marketparquet/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
